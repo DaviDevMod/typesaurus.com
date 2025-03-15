@@ -104,7 +104,7 @@ The `$.collection` function creates a collection with the given model. The key y
 import { schema } from "typesaurus";
 
 const db = schema(($) => ({
-  // `users` is the the path, `User` is the model
+  // `users` is the path, `User` is the model
   users: $.collection<User>(),
 }));
 ```
