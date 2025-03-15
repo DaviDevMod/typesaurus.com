@@ -78,7 +78,7 @@ Now, we can use the `db` object to access the collections:
 const user = await db.users.get(userId);
 ```
 
-If might noticed that we had to wrap the `express-sessions` collection name in quotes. That's because it's not a valid JavaScript identifier, and the property name is the collection path segment, so we have to use the string literal syntax.
+You might have noticed that we had to wrap the `express-sessions` collection name in quotes. That's because it's not a valid JavaScript identifier, and the property name is the collection path segment, so we have to use the string literal syntax.
 
 It's not very convenient, especially when accessing the collection:
 
