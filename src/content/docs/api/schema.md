@@ -212,7 +212,7 @@ const db = schema(($) => ({
 
 The subcollection path will be `posts/{postId}/comments` and the id will be [`Id<"posts/comments">`](/types/typesaurus/#id).
 
-You can access a subcollection calling the partent collection with an id:
+You can access a subcollection calling the parent collection with an id:
 
 ```ts
 // Fetch all post comments
